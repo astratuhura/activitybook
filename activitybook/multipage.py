@@ -29,7 +29,7 @@ class multi_page:
         # the navigation sidebar
         page = st.sidebar.radio(
             # navigation title
-            'Instruction Books', 
+            'Acitivity Books', 
             self.pages, 
             format_func=lambda page: page['title']
         )
