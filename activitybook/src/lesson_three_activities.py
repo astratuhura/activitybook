@@ -63,10 +63,10 @@ def app():
 
     st.markdown('----')
     st.header("What are primitives?")
-    st.write("Select that which is most correct")
+    st.write("Select that which is most correct.")
     reinforce_learn = st.multiselect(
     'Which of the following is a correct statement?',
-    ['the fundamental building blocks of individual calculations applied to raw data', 'The agent receives a reward for reaching the goals', 'Agent learns by trial and error', 'Artificial Neural Networks (ANNs)','Random Forest Algorithms'],
+    ['The fundamental building blocks of individual calculations applied to raw data', 'The agent receives a reward for reaching the goals', 'Agent learns by trial and error', 'Artificial Neural Networks (ANNs)','Random Forest Algorithms'],
     ['the fundamental building blocks of individual calculations applied to raw data', 'Agent learns by trial and error','Random Forest Algorithms'])
     st.markdown('----')
     
