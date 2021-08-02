@@ -7,6 +7,7 @@ from multipage import multi_page
 
 # import apps from source (src) directory
 from src import lesson_one_activities
+from src import lesson_two_activities
 from src import lesson_three_activities
 
 
@@ -25,6 +26,7 @@ st.sidebar.header('Navigation to Activity Books')
 
 # add apps
 app.add_page("Lesson #1 Activities", lesson_one_activities.app)
+app.add_page("Lesson #2 Activities", lesson_two_activities.app)
 app.add_page("Lesson #3 Activities", lesson_three_activities.app)
 
 # run main app
