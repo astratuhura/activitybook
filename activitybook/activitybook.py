@@ -9,6 +9,7 @@ from multipage import multi_page
 from src import lesson_one_activities
 from src import lesson_two_activities
 from src import lesson_three_activities
+from src import lesson_five_activities
 
 
 # instantiate multipage app handler
@@ -28,6 +29,7 @@ st.sidebar.header('Navigation to Activity Books')
 app.add_page("Lesson #1 Activities", lesson_one_activities.app)
 app.add_page("Lesson #2 Activities", lesson_two_activities.app)
 app.add_page("Lesson #3 Activities", lesson_three_activities.app)
+app.add_page("Lesson #5 Activities", lesson_five_activities.app)
 
 # run main app
 app.run()
