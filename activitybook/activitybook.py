@@ -10,6 +10,7 @@ from src import lesson_one_activities
 from src import lesson_two_activities
 from src import lesson_three_activities
 from src import lesson_five_activities
+from src import lesson_seven_activities
 
 
 # instantiate multipage app handler
@@ -30,6 +31,7 @@ app.add_page("Lesson #1 Activities", lesson_one_activities.app)
 app.add_page("Lesson #2 Activities", lesson_two_activities.app)
 app.add_page("Lesson #3 Activities", lesson_three_activities.app)
 app.add_page("Lesson #5 Activities", lesson_five_activities.app)
+app.add_page("Lesson #7 Activities", lesson_seven_activities.app)
 
 # run main app
 app.run()
